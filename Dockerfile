@@ -18,3 +18,4 @@ EXPOSE 3000
 
 # Command to run your app
 CMD ["node", "server.js"]
+COPY package*.json ./
